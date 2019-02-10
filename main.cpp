@@ -1,7 +1,19 @@
 //BitTim Morselator
 //Copyright (c) BitTim 2019
 //
-//Translate Morse Code into Normal Letters!
+//Translate Morse Code into Normal Letters and vice versa!
+
+#ifdef __linux__
+int os = 1;
+#endif
+
+#ifdef _WIN64
+int os = 2;
+#endif
+
+#ifdef _WIN32
+int os = 2;
+#endif
 
 #include <iostream>
 #include <string>
@@ -251,7 +263,11 @@ int main()
                 cout << morse << endl << endl;
             }
         }
-        else if(cmd == "clr") cout << "\033[2J\033[1;1H";
+        else if(cmd == "clr")
+	{
+	    if(os == 1) cout << "\033[2J\033[1;1H";
+	    if(os == 2) system("cls");
+	}
         else if(cmd == "prefx")
         {
             cout << "Please Enter a new Prefix: ";
