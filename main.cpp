@@ -121,43 +121,43 @@ string ttm(string text_string)
 
     for(char c : text_string)
     {
-        if(c == ' ') morse_string += "/ "    ; else
-        if(c == 'A') morse_string += ".- "   ; else
-        if(c == 'B') morse_string += "-... " ; else
-        if(c == 'C') morse_string += "-.-. " ; else
-        if(c == 'D') morse_string += "-.. "  ; else
-        if(c == 'E') morse_string += ". "    ; else
-        if(c == 'F') morse_string += "..-. " ; else
-        if(c == 'G') morse_string += "--. "  ; else
-        if(c == 'H') morse_string += ".... " ; else
-        if(c == 'I') morse_string += ".. "   ; else
-        if(c == 'J') morse_string += ".--- " ; else
-        if(c == 'K') morse_string += "-.- "  ; else
-        if(c == 'L') morse_string += ".-.. " ; else
-        if(c == 'M') morse_string += "-- "   ; else
-        if(c == 'N') morse_string += "-. "   ; else
-        if(c == 'O') morse_string += "--- "  ; else
-        if(c == 'P') morse_string += ".--. " ; else
-        if(c == 'Q') morse_string += "--.- " ; else
-        if(c == 'R') morse_string += ".-. "  ; else
-        if(c == 'S') morse_string += "... "  ; else
-        if(c == 'T') morse_string += "- "    ; else
-        if(c == 'U') morse_string += "..- "  ; else
-        if(c == 'V') morse_string += "...- " ; else
-        if(c == 'W') morse_string += ".-- "  ; else
-        if(c == 'X') morse_string += "-..- " ; else
-        if(c == 'Y') morse_string += "-.-- " ; else
-        if(c == 'Z') morse_string += "--.. " ; else
-        if(c == '1') morse_string += ".---- "; else
-        if(c == '2') morse_string += "..--- "; else
-        if(c == '3') morse_string += "...-- "; else
-        if(c == '4') morse_string += "....- "; else
-        if(c == '5') morse_string += "..... "; else
-        if(c == '6') morse_string += "-.... "; else
-        if(c == '7') morse_string += "--... "; else
-        if(c == '8') morse_string += "---.. "; else
-        if(c == '9') morse_string += "----. "; else
-        if(c == '0') morse_string += "----- "; else
+        if(c == ' '            ) morse_string += "/ "    ; else
+        if(c == 'A' || c == 'a') morse_string += ".- "   ; else
+        if(c == 'B' || c == 'b') morse_string += "-... " ; else
+        if(c == 'C' || c == 'c') morse_string += "-.-. " ; else
+        if(c == 'D' || c == 'd') morse_string += "-.. "  ; else
+        if(c == 'E' || c == 'e') morse_string += ". "    ; else
+        if(c == 'F' || c == 'f') morse_string += "..-. " ; else
+        if(c == 'G' || c == 'g') morse_string += "--. "  ; else
+        if(c == 'H' || c == 'h') morse_string += ".... " ; else
+        if(c == 'I' || c == 'i') morse_string += ".. "   ; else
+        if(c == 'J' || c == 'j') morse_string += ".--- " ; else
+        if(c == 'K' || c == 'k') morse_string += "-.- "  ; else
+        if(c == 'L' || c == 'l') morse_string += ".-.. " ; else
+        if(c == 'M' || c == 'm') morse_string += "-- "   ; else
+        if(c == 'N' || c == 'n') morse_string += "-. "   ; else
+        if(c == 'O' || c == 'o') morse_string += "--- "  ; else
+        if(c == 'P' || c == 'p') morse_string += ".--. " ; else
+        if(c == 'Q' || c == 'q') morse_string += "--.- " ; else
+        if(c == 'R' || c == 'r') morse_string += ".-. "  ; else
+        if(c == 'S' || c == 's') morse_string += "... "  ; else
+        if(c == 'T' || c == 't') morse_string += "- "    ; else
+        if(c == 'U' || c == 'u') morse_string += "..- "  ; else
+        if(c == 'V' || c == 'v') morse_string += "...- " ; else
+        if(c == 'W' || c == 'w') morse_string += ".-- "  ; else
+        if(c == 'X' || c == 'x') morse_string += "-..- " ; else
+        if(c == 'Y' || c == 'y') morse_string += "-.-- " ; else
+        if(c == 'Z' || c == 'z') morse_string += "--.. " ; else
+        if(c == '1'            ) morse_string += ".---- "; else
+        if(c == '2'            ) morse_string += "..--- "; else
+        if(c == '3'            ) morse_string += "...-- "; else
+        if(c == '4'            ) morse_string += "....- "; else
+        if(c == '5'            ) morse_string += "..... "; else
+        if(c == '6'            ) morse_string += "-.... "; else
+        if(c == '7'            ) morse_string += "--... "; else
+        if(c == '8'            ) morse_string += "---.. "; else
+        if(c == '9'            ) morse_string += "----. "; else
+        if(c == '0'            ) morse_string += "----- "; else
         morse_string += "err1";
     }
 
