@@ -235,12 +235,12 @@ int main()
                 if(args[0] == "-h")
                 {
                     cout << endl;
-                    cout << "Morse to Text Help" << endl;
+                    cout << "Text to Morse Help" << endl;
                     cout << "----------------------------" << endl;
                     cout << "You just enter some Text in the following Format:" << endl;
-                    cout << "It has to be all UPPERCASE" << endl;
                     cout << "It can only contain LETTERS and NUMBERS" << endl << endl;
-                    cout << "Example: HELLO WORLD" << endl;
+		    cout << "Warning! It will be only UPPERCASE when decoded from Morse code" << endl << endl;
+                    cout << "Example: Hello World" << endl;
                     cout << "Returned by command: .... . .-.. .-.. --- / .-- --- .-. .-.. -.." << endl << endl;
                 }
                 else
